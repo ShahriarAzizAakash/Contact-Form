@@ -1,0 +1,81 @@
+.navbar-nav > li{
+  padding-right: 10px;
+}
+
+.navbar-brand{
+    padding-right: 25px;
+    float: left;
+}
+
+nav{
+    position: sticky;
+}
+
+.container{
+    padding-top: 50px;
+}
+
+ul{
+    list-style-type: none;
+}
+textarea{ 
+  width: auto; 
+  min-width: 200px; 
+  max-width:1000px; 
+
+  height: auto; 
+  min-height:147px;  
+  max-height:147px;  
+}
+
+.display-4{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+body{
+    color: aliceblue;
+    margin: 0px;
+    padding: 0px;
+}
+
+.flex-row{
+    margin-bottom: 100px;
+}
+
+.my-flex-container{
+    border: 2px solid gainsboro;
+}
+
+.my-flex-container:hover{
+    background-color: crimson;
+    border: 2px solid crimson;
+    transition: 0.25s;
+}
+
+.btn-outline-light:hover{
+    background-color: crimson;
+    border: 1px solid crimson;
+}
+
+
+hr {
+height: 1px;
+color: blue;
+background-color: red;
+border: none;
+}
+
+.pull-left{
+    float:right;
+}
+
+.pull-right{
+    float:right;
+}
+
+footer {
+	position: relative;
+
+}
